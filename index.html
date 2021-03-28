@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thought-Pot</title>
+    <link rel = "icon" href =  
+    "pot.jpg" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script src="html2canvas.js"></script>
+  </head>
+<body class="index">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="fab fa-fw fa-pagelines"></i>Thought-Pot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/resources.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <div class="jumbotron" id="screenshot">
+        <h1 class="display-4">Create Positive Reflections!</h1>
+        <!-- Dropdown for Positive Reflection Templates -->
+        <div class="dropdown my-4">
+          <button class="btn btn-warning dropdown-toggle btn-lg btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-plus"></i> Add Reflection
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item template1" href="#">My past is not a reflection of my future. The following are ways I’ve changed: ____________.</a>
+            <a class="dropdown-item template2" href="#">I’m in charge of my life and no one will dictate my path besides me. For example, recent proactive choices I have made are ___________.</a>
+            <a class="dropdown-item template3" href="#">I am allowed to take up space. Others value my presence because I am ____________.</a>
+            <a class="dropdown-item template4" href="#">Though these times are difficult, they are only a short phase of life. I will make each day a little easier by ____________.</a>
+            <a class="dropdown-item template5" href="#">Every moment I’m making an effort to be more conscious about how I ____________.</a>
+            <a class="dropdown-item template6" href="#">How will I make today great?" ____________.</a>
+            <a class="dropdown-item template7" href="#">My life is just beginning. I will work towards making myself happier by ____________.</a>
+            <a class="dropdown-item template8" href="#">I'm not there yet, but I'm getting there by ____________.</a>
+            <a class="dropdown-item template9" href="#">I love ____________.</a>
+            <a class="dropdown-item template10" href="#">My path is carved towards greatness and success. Some obstacles I’ve overcome recently are ____________.</a>
+          </div>
+        </div>
+        <div class="my-4" id="affirmations">
+        </div>
+        <button class="btn-success" id="save" onclick="screenshot()">Save</button>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
